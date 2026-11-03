@@ -112,3 +112,15 @@ InitTestScene*.unity*
 
 # Auto-generated cache in Assets folder
 /[Aa]ssets/[Ss]ceneDependencyCache*
+
+# Local repair backups (not game assets)
+/AnimationFixBackup-*/
+/PlayerVisualFixBackup-*/
+/DeathAndScaleBackup-*/
+/UndoVisualChangesBackup-*/
+/PlayerVisualFixBackup-*/
+/Undo*Backup-*/
+*.bak
+*.bak.meta
+.DS_Store
+__MACOSX/
