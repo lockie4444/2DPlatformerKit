@@ -48,13 +48,65 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4015579407940777497, guid: 500ec77208cef4eedb854b63381569c7, type: 3}
+      propertyPath: m_Size.x
+      value: 0.34826148
+      objectReference: {fileID: 0}
+    - target: {fileID: 4015579407940777497, guid: 500ec77208cef4eedb854b63381569c7, type: 3}
+      propertyPath: m_Size.y
+      value: 0.3461167
+      objectReference: {fileID: 0}
+    - target: {fileID: 4015579407940777497, guid: 500ec77208cef4eedb854b63381569c7, type: 3}
+      propertyPath: m_Offset.x
+      value: 0.00000011920929
+      objectReference: {fileID: 0}
+    - target: {fileID: 4015579407940777497, guid: 500ec77208cef4eedb854b63381569c7, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.0010724515
+      objectReference: {fileID: 0}
+    - target: {fileID: 4015579407940777497, guid: 500ec77208cef4eedb854b63381569c7, type: 3}
+      propertyPath: m_SpriteTilingProperty.border.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4015579407940777497, guid: 500ec77208cef4eedb854b63381569c7, type: 3}
+      propertyPath: m_SpriteTilingProperty.border.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4015579407940777497, guid: 500ec77208cef4eedb854b63381569c7, type: 3}
+      propertyPath: m_SpriteTilingProperty.border.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4015579407940777497, guid: 500ec77208cef4eedb854b63381569c7, type: 3}
+      propertyPath: m_SpriteTilingProperty.border.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4015579407940777497, guid: 500ec77208cef4eedb854b63381569c7, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 0.64
+      objectReference: {fileID: 0}
+    - target: {fileID: 4015579407940777497, guid: 500ec77208cef4eedb854b63381569c7, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 0.64
+      objectReference: {fileID: 0}
+    - target: {fileID: 4358692886835389198, guid: 500ec77208cef4eedb854b63381569c7, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c1227086952cb3f4f80f7a98de4ff6f0, type: 3}
     - target: {fileID: 4358692886835389198, guid: 500ec77208cef4eedb854b63381569c7, type: 3}
       propertyPath: m_Color.b
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4358692886835389198, guid: 500ec77208cef4eedb854b63381569c7, type: 3}
       propertyPath: m_Color.g
-      value: 0.8901961
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4358692886835389198, guid: 500ec77208cef4eedb854b63381569c7, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5812949359519725982, guid: 500ec77208cef4eedb854b63381569c7, type: 3}
+      propertyPath: m_Mass
+      value: 0.12053911
       objectReference: {fileID: 0}
     - target: {fileID: 5812949359519725982, guid: 500ec77208cef4eedb854b63381569c7, type: 3}
       propertyPath: m_Material

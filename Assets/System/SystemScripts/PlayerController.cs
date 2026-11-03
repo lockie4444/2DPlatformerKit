@@ -537,10 +537,15 @@ public class PlayerController : MonoBehaviour
         rigidbody2D.linearVelocity = Vector2.zero;
         rigidbody2D.bodyType = RigidbodyType2D.Kinematic;
         EnablePlayerControl(false);
+        // The custom sprite may render directly on the player root.
+        SpriteRenderer rootSprite = GetComponent<SpriteRenderer>();
+        bool restoreRootSprite = rootSprite != null && rootSprite.enabled;
+        if (rootSprite != null) rootSprite.enabled = false;
         if (systemVariables.spritesParent != null) systemVariables.spritesParent.SetActive(false);
         yield return new WaitForSeconds(systemVariables.waitToResetCameraAfterDeath);
         CameraFollow.instance.FocusCameraToPlayer();
         if (systemVariables.spritesParent != null) systemVariables.spritesParent.SetActive(true);
+        if (rootSprite != null) rootSprite.enabled = restoreRootSprite;
         rigidbody2D.bodyType = RigidbodyType2D.Dynamic;
         EnablePlayerControl(true);
     }

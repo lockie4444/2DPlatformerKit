@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/UiScenes/TitleScreen.unity
     guid: ce3f852853f994bf5836effaab3dfe0b
   - enabled: 1
+    path: Assets/Scenes/FrozenKingdom.unity
+    guid: bdc68680ab2479042a1010572fb35fc8
+  - enabled: 1
     path: Assets/Scenes/UiScenes/WinScreen.unity
     guid: ca24066a358f64121aa08929e28f3586
   m_configObjects:
